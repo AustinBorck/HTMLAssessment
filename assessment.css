@@ -40,9 +40,18 @@ blockquote{
 #checkbox-grid{
   list-style-type: none;
 }
-#teamRoster ol li{
+li{
+  font-weight: normal;
+}
+#teamRoster ol li:first-child{
   font-weight: bold;
 }
-#teamRoster ol li ol li{
-  font-weight: normal;
+#scoreBoard tr:first-child{
+  background-color: lightyellow;
+}
+#scoreBoard tr:nth-child(2){
+  background-color: lightblue;
+}
+#scoreBoard tr:nth-child(3){
+  background-color: lightgreen;
 }
