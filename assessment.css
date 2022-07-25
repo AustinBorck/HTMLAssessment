@@ -1,0 +1,8 @@
+.subjectHeader{
+  color: gray;
+  font-family: sans-serif;
+}
+#scoreBoard th{
+  font-weight: bold;
+  color: blue;
+}
